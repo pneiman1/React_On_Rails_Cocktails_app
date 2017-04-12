@@ -1,24 +1,15 @@
 # README
+Welcome to a cocktails periodic table app.
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby 2.4.0p0
 
-Things you may want to cover:
+* Rails 5.0.2
 
-* Ruby version
+* Dependencies => create-react-app (Webpack + Babel), npm, activeadmin (back end), foreman (to yoke Rails and React localhost/3000 + localhost/3001), semantic-ui-react, semantic-ui-css, react, rake react-dom, devise, bundler (to find loose gems!), rvm, homebrew
 
-* System dependencies
+* Configuration:
 
-* Configuration
+* Database => SQLite3, rake migrations =>
+  bin/rake db:reset, bin/rake db:create, etc.
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Devise Initializer for ActiveAdmin    Backend
