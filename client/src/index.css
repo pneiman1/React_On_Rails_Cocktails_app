@@ -2,10 +2,53 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background-color: black;
+
 }
 
-.Button.ui.fluid.button {
-width: 100px;
 
+  html {background: url(/client/src/barone.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; }
+
+#root .ui.fluid.button{
+color: #3082ff;
+ background-color: #dddfff;
+ border: .5px solid #3082ff;
+
+}
+
+#root .ui.active.fluid.button{
+color: white;
+ background-color: #3082ff;
+}
+
+.ui.segments .segment, .ui.segment {
+    font-size: 1rem;
+    color: #3082ff;
+    background-color: #dddfff;
+}
+
+i.icon.cocktail:before {
+
+  color: #3082ff;
+    content: "\F000";
+}
+
+i.icon.cocktail.circular.icon{
+  background-color: #dddfff;
+  content: "\F000";
+}
+
+.ui.header > .icon + .content {
+    padding-left: 0.75rem;
+    display: table-cell;
+    vertical-align: middle;
+    color: #3082ff;
+}
+
+h2.ui.header {
+    font-size: 1.71428571rem;
+    color: #3082ff;
 }
