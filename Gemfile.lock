@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/activeadmin/activeadmin.git
-  revision: 66a07283887293b82b3a7f0a86c516eaa85db0c0
+  revision: 095fc4eb014df1541ff88bd6132dce8f5499925a
   specs:
     activeadmin (1.0.0.pre5)
       arbre (>= 1.1.1)
