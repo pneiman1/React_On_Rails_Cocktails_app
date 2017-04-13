@@ -9,8 +9,7 @@ end
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.2'
 # Use sqlite3 as the database for Active Record
-gem 'activeadmin', github: 'activeadmin'
-gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
 # Use Puma as the app server
 gem 'puma', '~> 3.0'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
@@ -25,9 +24,7 @@ gem 'puma', '~> 3.0'
 
 # Use Rack CORS for handling Cross-Origin Resource Sharing (CORS), making cross-origin AJAX possible
 # gem 'rack-cors'
-gem 'devise'
 
-gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -46,10 +43,13 @@ end
 
 group :production do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  #gem 'pg', '~>0.20.0'
-  gem 'rails_12factor'
+  gem 'pg'
+
 end
 
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+gem 'devise', '> 4.x'
+gem 'activeadmin', github: 'activeadmin'
+gem 'inherited_resources', github: 'activeadmin/inherited_resources'
