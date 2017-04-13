@@ -27,8 +27,6 @@ gem 'puma', '~> 3.0'
 # gem 'rack-cors'
 gem 'devise'
 
-gem 'foreman', '~> 0.82.0'
-
 gem 'database_cleaner', '~> 1.5', '>= 1.5.3'
 
 group :development, :test do
@@ -49,6 +47,7 @@ end
 group :production do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   #gem 'pg', '~>0.20.0'
+  gem 'rails_12factor'
 end
 
 
